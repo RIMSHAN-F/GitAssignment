@@ -1,0 +1,76 @@
+
+
+GIT COMMANDS AND EXPLANATIONS
+=============================
+
+1. git init
+   Initializes a new Git repository in the project folder.
+
+2. git branch -M main
+   Renames the current branch to main.
+
+3. git status
+   Displays the current branch and the status of working files.
+
+4. git add .
+   Stages all eligible changes for the next commit.
+
+5. git add index.html
+   Stages the modified index.html file.
+
+6. git add about.html
+   Stages changes made to about.html.
+
+7. git add .gitignore
+   Stages the .gitignore file.
+
+8. git commit -m "Initial commit: Add HTML files"
+   Saves the initial project files in Git history.
+
+9. git commit -m "Updated homepage"
+   Records the homepage modification as a new commit.
+
+10. git branch feature
+    Creates a new branch named feature.
+
+11. git switch feature
+    Switches to the feature branch.
+
+12. git restore index.html
+    Discards uncommitted changes made to index.html and restores its last committed version.
+
+13. git commit -m "Updated About Page"
+    Saves the About page modification in a commit.
+
+14. git switch main
+    Switches back to the main branch.
+
+15. git merge feature
+    Merges the changes from the feature branch into main.
+
+16. git log --oneline --graph --all
+    Displays the commit history of all branches in a compact graphical format.
+
+17. git status --ignored
+    Displays the repository status, including files and folders ignored by Git.
+
+18. git commit -m "Add gitignore rules"
+    Saves the .gitignore configuration in Git history.
+
+19. git revert --no-edit HEAD
+    Creates a new commit that reverses the changes made by the latest commit without deleting commit history.
+
+20. git remote add origin https://github.com/RIMSHAN-F/GitAssignment.git
+    Connects the local repository to the remote GitHub repository.
+
+21. git remote -v
+    Displays the configured remote repository URLs.
+
+22. git push -u origin main
+    Uploads the main branch to GitHub and sets it as the upstream branch.
+
+23. git push -u origin feature
+    Uploads the feature branch to GitHub and sets it as the upstream branch.
+
+24. git log --oneline -6
+    Displays the six most recent commits in a compact format.
